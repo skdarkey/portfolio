@@ -13,7 +13,7 @@ In this project, I did a comprehensive analysis of the Android app market by com
 - what is the revenue potential for a paid app?
 - which categories and content type for paid apps make them sell?
 The overall goal is to develop an app pricing mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.
-[Project Notebook can be seen here](Google_Play_Store_App_Analytics.ipynb)
+[Project Notebook can be seen here](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
 ![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
 
 ### 2. House Price Prediction project (Data Science & Machine Learning):
