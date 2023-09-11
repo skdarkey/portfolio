@@ -4,7 +4,7 @@
 Geoinformatics, MSc
 
 
-## Some Recent Projects:
+### Some Recent Projects:
 
 ### Google Play Store App Analytics.
 In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
