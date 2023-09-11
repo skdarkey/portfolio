@@ -36,6 +36,8 @@ In this project, working together in a team of three to produce 3 different dash
 - The workflow was automated to enable any update on the Baden-Wuerttemberg Statistic [**site**](https://www.statistik-bw.de/) to reflect in the dashboard. 
 A short video on the project can be seen here. [**Video**](https://youtu.be/H-GCY9xvKJI).
 
+![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
+
 ### 4. Clothings Image Classification Project (Deep learning).
 Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
 
