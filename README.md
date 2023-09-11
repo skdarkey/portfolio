@@ -22,7 +22,8 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 - Built a regression model to help predict the prices of new homes.
 - Used log transform to improve the distribution of the dataset.
 - Built the model again which is able to predict with 79% accuracy. 
-[**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi). 
+[**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi).
+![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
 ### 3. Population Dashboard project (GeoData Analytics & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
@@ -56,3 +57,4 @@ A look at the ![Confusion matrix:](assets/images/Confusion_matrix.png)
 In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
 Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 [**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
+![Sample Predicted Image](assets/images/hamburger.png)
