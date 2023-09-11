@@ -29,8 +29,8 @@ In this project, working together in a team of three to produce 3 different dash
 - The data was analyzed in ArcGIS Pro GIS desktop software,
 - A live dashboard was created to visualize the patterns in the data.
 - A regression model was used to learn the pattern of population growth and to project the population of Stuttgart City and the Stuttgart administrative area by 2040.
-- The workflow was automated to enable any update on the Baden-Wuerttemberg Statistic ![site](https://www.statistik-bw.de/) to reflect in the dashboard. 
-A short video on the project can be seen here. ![Video](https://youtu.be/H-GCY9xvKJI).
+- The workflow was automated to enable any update on the Baden-Wuerttemberg Statistic [site](https://www.statistik-bw.de/) to reflect in the dashboard. 
+A short video on the project can be seen here. [Video](https://youtu.be/H-GCY9xvKJI).
 
 ### Clothings Image Classification Project (Deep learning).
 Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
