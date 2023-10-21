@@ -36,6 +36,7 @@ In this project, working together in a team of three to produce 3 different dash
 - A regression model was used to learn the pattern of population growth and to project the population of Stuttgart City and the Stuttgart administrative area by 2040.
 - The workflow was automated to enable any update on the Baden-Wuerttemberg Statistic [**site**](https://www.statistik-bw.de/) to reflect in the dashboard. 
 A short video on the project can be seen here. [**Video**](https://youtu.be/H-GCY9xvKJI).
+The code for this project can be found here [**Notebook**](https://github.com/skdarkey/portfolio/blob/main/Population%20Dashboard%20Codebase.ipynb)
 
 ![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
 
