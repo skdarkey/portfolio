@@ -7,17 +7,18 @@
 ## Education
 MSc Geoinformatics - HfT Stuttgart(2022-Present)
 
-## Work Experience
+## Work Experience.
 **Spatial Data Analyst @ Allianz SE Data and AI team (_September 2023 - Present)**
 - Wrote Python scripts and models to extract property features and improve property risk scoring and Insurance Premium Pricing.
 - Programmed Geospatial Data Intelligence workflows, extracting new features to enrich existing portfolio and
 - Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
+- Optimized python models and reduced performance time from 4hrs to 4 minutes in one case.
 - Technologies used: Python, SQL, PostgreSQL DB, Azure Synapse Analytics.
 
 **Co-founder and Business Lead @ Nukushare Agro Limited (_March 2020 – July 2022_)**
 - Planning and Directing Agricultural Input Credit Insurance Initiative in Ghana.
 - Coordinating research into Climate Risk Mitigation and Adaptation measures in the agriculture sector of Ghana.
-- Analysing Geospatial Data for Agricultural risk scoring.
+- Analysing Geospatial Data for Agricultural risk scoring and credit management.
 **        **
 
 ## Some Recent Open Projects:
@@ -40,7 +41,7 @@ Some of the notebooks for data ingestion and transformation as well as images at
 **         **
 ![Image of the Data Factory Pipeline for Automating Data Ingestion Workflow](assets/images/f1_Ingestion_notebooks_in_pipeline.png)
 **         **
-![Image of the Data Factory Pipeline for automating all Data transformations workflows)(assets/images/f1_Adf_master_pipeline.png).
+![Image of Data Factory Pipeline for automating Data transformation workflows](assets/images/f1_transformation_pipeline.png).
 **         **
 ![Snapshot of Databricks Dashboard Visualization created](assets/images/f1_Dashboard_1.png).
 ![Snapshot of Dashboard Visualization](assets/images/f1_Dashboard_2.png).
@@ -102,3 +103,5 @@ In this project, I build CNN models to classify 10 classes of food. The best res
 Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 [**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
 ![Sample Predicted Image](assets/images/hamburger.png)
+
+
