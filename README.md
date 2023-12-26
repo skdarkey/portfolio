@@ -5,7 +5,10 @@
 - **Familiar**: AWS, SAS Base and Advanced Programming, PowerBI, HTML, JavaScript, CSS, Django.
 
 ## Education
-MSc Geoinformatics - HfT Stuttgart(2022-Present)
+MSc Geoinformatics - HfT Stuttgart(2022-Present).
+
+![Other relevant courses completed](https://colab.research.google.com/drive/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q).
+
 
 ## Work Experience.
 **Spatial Data Analyst @ Allianz SE Data and AI team (_September 2023 - Present)**
