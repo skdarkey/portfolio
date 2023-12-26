@@ -19,7 +19,7 @@ MSc Geoinformatics - HfT Stuttgart(2022-Present)
 - Planning and Directing Agricultural Input Credit Insurance Initiative in Ghana.
 - Coordinating research into Climate Risk Mitigation and Adaptation measures in the agriculture sector of Ghana.
 - Analysing Geospatial Data for Agricultural risk scoring and credit management.
-**        **
+
 
 ## Some Recent Open Projects:
 
@@ -36,16 +36,16 @@ Some of the notebooks for data ingestion and transformation as well as images at
 2. [**One of the data transformation notebooks created in Databricks**](https://colab.research.google.com/drive/1frDClq001cLnjAs5c0cHbjpnQrLo-xe6)
 
 ![The Entity Relationship Diagram for the Project Database](assets/images/f1_Entity_relationship_diagram.png)
-**   **
+
 ![The Solution Architecture Designed for the Project](assets/images/f1_Solution_Architecture.png)
-**         **
+
 ![Image of the Data Factory Pipeline for Automating Data Ingestion Workflow](assets/images/f1_Ingestion_notebooks_in_pipeline.png)
-**         **
+
 ![Image of Data Factory Pipeline for automating Data transformation workflows](assets/images/f1_transformation_pipeline.png).
-**         **
+
 ![Snapshot of Databricks Dashboard Visualization created](assets/images/f1_Dashboard_1.png).
 ![Snapshot of Dashboard Visualization](assets/images/f1_Dashboard_2.png).
-**           **
+
 
 ### 2. Google Play Store App Analytics.
 In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
@@ -56,7 +56,7 @@ In this project, I did a comprehensive analysis of the Android app market by com
 The overall goal is to develop an app pricing mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.
 [**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
 ![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
-**            **
+
 
 ### 3. House Price Prediction project (_Data Science & Machine Learning_):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
@@ -66,7 +66,7 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 - Built the model again which is able to predict with 79% accuracy. 
 [**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi).
 ![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
-**        **
+
 
 ### 4. Population Dashboard project (_GeoData Analytics & Automation_):
 In this project, working together in a team of three to produce 3 different dashboards, 
@@ -82,7 +82,7 @@ A short video on the project can be seen here. [**Video**](https://youtu.be/H-GC
 The code for this project can be found here [**Notebook**](https://github.com/skdarkey/portfolio/blob/main/Population%20Dashboard%20Codebase.ipynb)
 
 ![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
-**            **
+
 
 ### 5. Clothings Image Classification Project (_Deep learning_).
 Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
@@ -96,7 +96,7 @@ Using TensorFlow Deep Learning library and Python, I built neural network image 
 Brief Summary: I built 3 different neural network classification models and compared their accuracy on the testing data. The best performing model achieved an accurary of 80%. Through the confusion matrix computed, it was observed that images of few classes such as T-shirt and Pullover were the most misclassified since their images tend to look quite familiar.
 [**The Notebook can be found here**](https://colab.research.google.com/drive/1i6y2JXadmIrjE873T11gfYiIgEAa6FgL)
 A look at the ![Confusion matrix:](assets/images/Confusion_matrix.png)  
-**          **
+
 
 ### 6. Food Images Classification project (_Deep Learning with Transfer Learning_).
 In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
