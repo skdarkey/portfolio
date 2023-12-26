@@ -35,13 +35,13 @@ Some of the notebooks for data ingestion and transformation as well as images at
 2. [**One of the data transformation notebooks created in Databricks**](https://colab.research.google.com/drive/1frDClq001cLnjAs5c0cHbjpnQrLo-xe6)
 
 ![The Entity Relationship Diagram for the Project Database](assets/images/f1_Entity_relationship_diagram.png)
-
+**   **
 ![The Solution Architecture Designed for the Project](assets/images/f1_Solution_Architecture.png)
-
+**         **
 ![Image of the Data Factory Pipeline for Automating Data Ingestion Workflow](assets/images/f1_Ingestion_notebooks_in_pipeline.png)
-
+**         **
 ![Image of the Data Factory Pipeline for automating all Data transformations workflows)(assets/images/f1_Adf_master_pipeline.png).
-
+**         **
 ![Snapshot of Databricks Dashboard Visualization created](assets/images/f1_Dashboard_1.png).
 ![Snapshot of Dashboard Visualization](assets/images/f1_Dashboard_2.png).
 **           **
