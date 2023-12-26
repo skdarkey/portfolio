@@ -7,18 +7,18 @@
 ## Education
 MSc Geoinformatics - HfT Stuttgart(2022-Present).
 
-![Other relevant courses completed](https://colab.research.google.com/drive/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q).
+[Other relevant courses completed](https://colab.research.google.com/drive/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q).
 
 
 ## Work Experience.
-**Spatial Data Analyst @ Allianz SE Data and AI team (_September 2023 - Present)**
+**Spatial Data Analyst @ Allianz SE Data and AI team (September 2023 - Present)**
 - Wrote Python scripts and models to extract property features and improve property risk scoring and Insurance Premium Pricing.
 - Programmed Geospatial Data Intelligence workflows, extracting new features to enrich existing portfolio and
 - Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
 - Optimized python models and reduced performance time from 4hrs to 4 minutes in one case.
 - Technologies used: Python, SQL, PostgreSQL DB, Azure Synapse Analytics.
 
-**Co-founder and Business Lead @ Nukushare Agro Limited (_March 2020 – July 2022_)**
+**Co-founder and Business Lead @ Nukushare Agro Limited (March 2020 – July 2022)**
 - Planning and Directing Agricultural Input Credit Insurance Initiative in Ghana.
 - Coordinating research into Climate Risk Mitigation and Adaptation measures in the agriculture sector of Ghana.
 - Analysing Geospatial Data for Agricultural risk scoring and credit management.
@@ -26,7 +26,17 @@ MSc Geoinformatics - HfT Stuttgart(2022-Present).
 
 ## Some Recent Open Projects:
 
-### 1. Formula 1 Sport Historical Data Analytics Project (_Data Engineering and Analytics_).
+### 1. Google Play Store App Analytics.
+In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
+- which apps have the highest downloads?
+- what categories of apps are most downloaded?
+- what is the revenue potential for a paid app?
+- which categories and content type for paid apps make them sell?
+The overall goal is to develop an app pricing mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.
+[**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
+![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
+
+### 2. Formula 1 Sport Historical Data Analytics Project (Data Engineering and Analytics).
 In this project, I analysed the Ergast Formula1 sports database to understand the dominant drivers and dominant teams since the history of the sports. Doing this Data Engineering project enabled me to get proficient with Spark, Databricks, Azure Data Factory and refresh my SQL skill. 
 - I used Databricks, Pyspark and SparkSQL in Microsoft Azure environment for the project.
 - I wrote Pyspark and SparkSQL scripts to ingest all the data into Azure Datalake Storage Gen2(ADLS) with both full load and incremental loading approaches.
@@ -50,18 +60,7 @@ Some of the notebooks for data ingestion and transformation as well as images at
 ![Snapshot of Dashboard Visualization](assets/images/f1_Dashboard_2.png).
 
 
-### 2. Google Play Store App Analytics.
-In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
-- which apps have the highest downloads?
-- what categories of apps are most downloaded?
-- what is the revenue potential for a paid app?
-- which categories and content type for paid apps make them sell?
-The overall goal is to develop an app pricing mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.
-[**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
-![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
-
-
-### 3. House Price Prediction project (_Data Science & Machine Learning_):
+### 3. House Price Prediction project (Data Science & Machine Learning):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
 - I started with exploratory data analysis.
 - Built a regression model to help predict the prices of new homes.
@@ -71,7 +70,7 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 ![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
 
-### 4. Population Dashboard project (_GeoData Analytics & Automation_):
+### 4. Population Dashboard project (GeoData Analytics & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
 - I used Python to scrape Baden-Wurttemberg population and migration statistic data,
 - I used Python to grap OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
@@ -87,7 +86,7 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 ![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
 
 
-### 5. Clothings Image Classification Project (_Deep learning_).
+### 5. Clothings Image Classification Project (Deep learning).
 Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
 
 - No. of unique classes to classify 10
@@ -101,7 +100,7 @@ Brief Summary: I built 3 different neural network classification models and comp
 A look at the ![Confusion matrix:](assets/images/Confusion_matrix.png)  
 
 
-### 6. Food Images Classification project (_Deep Learning with Transfer Learning_).
+### 6. Food Images Classification project (Deep Learning with Transfer Learning).
 In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
 Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 [**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
