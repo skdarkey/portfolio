@@ -2,7 +2,7 @@
 
 ## Core Technologies: 
 - **Proficient**: Python, SQL, Spark, Microsoft Azure, Databricks, PostgreSQL, Tensorflow, Geographic Information Systems.   
-- **Familiar**: PowerBI, AWS, HTML, JavaScript, CSS, Django.
+- **Familiar**: AWS, SAS Base and Advanced Programming, PowerBI, HTML, JavaScript, CSS, Django.
 
 ## Education
 MSc Geoinformatics - HfT Stuttgart(2022-Present)
@@ -29,15 +29,21 @@ In this project, I analysed the Ergast Formula1 sports database to understand th
 - I wrote Pyspark and SparkSQL transformation scripts to analyse the raw data to gain understanding into most dominant drivers and teams through time.
 - I create live Databricks dashboard on top of the SQL analysis workflows for visualization.
 - I created three pipelines in the Microsoft Azure Data Factory to automate the data ingestion and transformation processes. 
-- I setup triggers in the Data Factory to execute the notebook at scheduled time.
+- I setup triggers in the Data Factory to execute the notebook at scheduled times.
 Some of the notebooks for data ingestion and transformation as well as images at different stages of the project are attached.
-> 1. [**One of the data ingestion notebooks created in Databricks**](https://colab.research.google.com/drive/1B1RyZXKaKAch4rIhT3rrFJgVNtYjS_dI)
-> 2. [**One of the data transformation notebooks created in Databricks**](https://colab.research.google.com/drive/1frDClq001cLnjAs5c0cHbjpnQrLo-xe6)
+1. [**One of the data ingestion notebooks created in Databricks**](https://colab.research.google.com/drive/1B1RyZXKaKAch4rIhT3rrFJgVNtYjS_dI)
+2. [**One of the data transformation notebooks created in Databricks**](https://colab.research.google.com/drive/1frDClq001cLnjAs5c0cHbjpnQrLo-xe6)
+
 ![The Entity Relationship Diagram for the Project Database](assets/images/f1_Entity_relationship_diagram.png)
-![The Cloud Solution Architecture Designed for the Project](assets/images/f1_Solution_Architecture.png)
-![Image of the Data Factory Pipeline for Automating Data Ingestion Workflow](f1_Ingestion_notebooks_in_pipeline.png)
-![Image of the Datafactory Pipeline for automating all Data transformations workflows)(assets/images/f1_Adf_master_pipeline.png).
-![Snapshot of Databricks Dashboard Visualization created](assets/images/f1_Dashboard_1.png)(assets/images/f1_Dashboard_2.png)
+
+![The Solution Architecture Designed for the Project](assets/images/f1_Solution_Architecture.png)
+
+![Image of the Data Factory Pipeline for Automating Data Ingestion Workflow](assets/images/f1_Ingestion_notebooks_in_pipeline.png)
+
+![Image of the Data Factory Pipeline for automating all Data transformations workflows)(assets/images/f1_Adf_master_pipeline.png).
+
+![Snapshot of Databricks Dashboard Visualization created](assets/images/f1_Dashboard_1.png).
+![Snapshot of Dashboard Visualization](assets/images/f1_Dashboard_2.png).
 **           **
 
 ### 2. Google Play Store App Analytics.
