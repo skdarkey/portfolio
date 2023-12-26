@@ -1,10 +1,15 @@
 # Data Scientist
 
+### Core Technologies: 
+- **Proficient**: Python, SQL, Spark, Microsoft Azure, Databricks, PostgreSQL, Tensorflow, Geographic Information Systems.   
+- **Familiar**: PowerBI, AWS, HTML, JavaScript, CSS, Django.
+
 ## Education
-Geoinformatics, MSc - HfT Stuttgart(2022-Present)
+MSc Geoinformatics - HfT Stuttgart(2022-Present)
 
+## Experience
 
-### Some Recent Projects:
+## Some Recent Open Projects:
 
 ### 1. Google Play Store App Analytics.
 In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
