@@ -1,4 +1,4 @@
-# Data Scientist/Machine Learning Engineer.
+# Data Scientist/Data Engineer.
 
 ## Core Technologies: 
 - **Proficient**: Python, SQL, Spark, Microsoft Azure, Databricks, PostgreSQL, Tensorflow, Geographic Information Systems.   
@@ -44,18 +44,19 @@ In this project, I analysed the Ergast Formula1 sports database to understand th
 - I create live Databricks dashboard on top of the SQL analysis workflows for visualization.
 - I created three pipelines in the Microsoft Azure Data Factory to automate the data ingestion and transformation processes. 
 - I setup triggers in the Data Factory to execute the notebook at scheduled times.
-Some of the notebooks for data ingestion and transformation as well as images at different stages of the project are attached.
+- Some of data ingestion and transformation notebooks are here attached.
 1. [**One of the data ingestion notebooks created in Databricks**](https://colab.research.google.com/drive/1B1RyZXKaKAch4rIhT3rrFJgVNtYjS_dI)
 2. [**One of the data transformation notebooks created in Databricks**](https://colab.research.google.com/drive/1frDClq001cLnjAs5c0cHbjpnQrLo-xe6)
 
+**The image below shows the Entity Relationship Diagram for the database of the project.**
 ![The Entity Relationship Diagram for the Project Database](assets/images/f1_Entity_relationship_diagram.png)
-
+**The Solution Architecture Designed for the project**
 ![The Solution Architecture Designed for the Project](assets/images/f1_Solution_Architecture.png)
-
+**The image shows the pipeline created in Azure Data Factory to automate the data ingestion workflows**
 ![Image of the Data Factory Pipeline for Automating Data Ingestion Workflow](assets/images/f1_Ingestion_notebooks_in_pipeline.png)
-
+**The image shows the pipeline for automating Data Transformation workflows in Azure Data Factory**
 ![Image of Data Factory Pipeline for automating Data transformation workflows](assets/images/f1_transformation_pipeline.png).
-
+**A snapshot of the Databricks Dashboard Visualization created on the final analysis workflows**
 ![Snapshot of Databricks Dashboard Visualization created](assets/images/f1_Dashboard_1.png).
 ![Snapshot of Dashboard Visualization](assets/images/f1_Dashboard_2.png).
 
