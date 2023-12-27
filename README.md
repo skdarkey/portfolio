@@ -56,7 +56,8 @@ In this project, I analysed the Ergast Formula1 sports database to understand th
 ![Image of the Data Factory Pipeline for Automating Data Ingestion Workflow](assets/images/f1_Ingestion_notebooks_in_pipeline.png)
 **The image shows the pipeline for automating Data Transformation workflows in Azure Data Factory**
 ![Image of Data Factory Pipeline for automating Data transformation workflows](assets/images/f1_transformation_pipeline.png).
-**A snapshot of the Databricks Dashboard Visualization created on the final analysis workflows**
+**Snapshot of the Databricks Dashboard Visualizations created on the final analysis results**
+
 ![Snapshot of Databricks Dashboard Visualization created](assets/images/f1_Dashboard_1.png).
 ![Snapshot of Dashboard Visualization](assets/images/f1_Dashboard_2.png).
 
