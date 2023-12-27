@@ -106,6 +106,7 @@ A look at the ![Confusion matrix:](assets/images/Confusion_matrix.png)
 In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
 Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 [**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
+
 ![Sample Predicted Image](assets/images/hamburger.png)
 
 
