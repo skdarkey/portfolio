@@ -72,7 +72,7 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 ![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
 
-### 4. Population Dashboard project (GeoData Analytics & Automation):
+### 4. Population Dashboard project (Geospatial Data Engineering & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
 - I used Python to scrape Baden-Wurttemberg population and migration statistic data,
 - I used Python to grap OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
