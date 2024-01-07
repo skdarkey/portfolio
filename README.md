@@ -12,16 +12,18 @@ MSc Geoinformatics - HfT Stuttgart(2022-Present).
 
 ## Work Experience.
 **Spatial Data Analyst @ Allianz SE Data and AI team (September 2023 - Present)**
-- Wrote Python scripts and models to extract property features and improve property risk scoring and Insurance Premium Pricing.
+- Developed and maintained geospatial data pipelines to accurate and efficiently process geodata at scale.
+- Wrote Python scripts and models to extract property features from image data to improve property risk scoring and Insurance Premium Pricing.
 - Programmed Geospatial Data Intelligence workflows, extracting new features to enrich existing portfolio and
 - Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
 - Optimized python models and reduced performance time from 4hrs to 4 minutes in one case.
-- Technologies used: Python, SQL, PostgreSQL DB, Azure Synapse Analytics.
+- Collaborated with cross-functional teams and stakeholders for requirements engineering and solutions development.
+- Technologies used: Python, SQL, PostgreSQL DB, Azure Synapse Analytics, QGIS, PostGIS.
 
 **Co-founder and Business Lead @ Nukushare Agro Limited (March 2020 – July 2022)**
-- Planning and Directing Agricultural Input Credit Insurance Initiative in Ghana.
+- Planned and Directed Agricultural Input Credit Insurance Initiative in Ghana.
 - Coordinating research into Climate Risk Mitigation and Adaptation measures in the agriculture sector of Ghana.
-- Analysing Geospatial Data for Agricultural risk scoring and credit management.
+- Analysed Geospatial Data for Crop risk scoring and farmer-credit management.
 
 
 ## Some Recent Open Projects:
