@@ -1,7 +1,7 @@
 # Data Scientist/Data Engineer.
 
 ## Core Technologies: 
-- **Proficient**: Python, SQL, Spark, Microsoft Azure, Databricks, PostgreSQL, Tensorflow, Geographic Information Systems.   
+- **Proficient**: Python, SQL, Spark, Microsoft Azure, Databricks, PostgreSQL, Tensorflow, Geographic Information Systems, ArcGIS Pro, QGIS.   
 - **Familiar**: AWS, SAS Base and Advanced Programming, PowerBI, HTML, JavaScript, CSS, Django.
 
 ## Education
