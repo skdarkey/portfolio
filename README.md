@@ -2,17 +2,16 @@
 
 ## Core Technologies: 
 - **Proficient**: Python, SQL, Spark, Microsoft Azure, Databricks, PostgreSQL, Tensorflow, Geographic Information Systems, ArcGIS Pro, QGIS.   
-- **Familiar**: AWS, SAS Base and Advanced Programming, PowerBI, HTML, JavaScript, CSS, Django.
+- **Familiar**: Git, AWS, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
 
 ## Education
 MSc Geoinformatics - HfT Stuttgart(2022-Present).
 
-[Other relevant courses completed](https://colab.research.google.com/drive/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q).
-
+[Other relevant courses completed](https://drive.google.com/file/d/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q/view?usp=sharing).
 
 ## Work Experience.
 **Spatial Data Analyst @ Allianz SE Data and AI team (September 2023 - Present)**
-- Developed and maintained geospatial data pipelines to accurate and efficiently process geodata at scale.
+- Developed and maintained geospatial data pipelines to accurately and efficiently process geodata at scale.
 - Wrote Python scripts and models to extract property features from image data to improve property risk scoring and Insurance Premium Pricing.
 - Programmed Geospatial Data Intelligence workflows, extracting new features to enrich existing portfolio and
 - Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
@@ -57,7 +56,7 @@ In this project, I analysed the Ergast Formula1 sports database to understand th
 **The image shows the pipeline created in Azure Data Factory to automate the data ingestion workflows**
 ![Image of the Data Factory Pipeline for Automating Data Ingestion Workflow](assets/images/f1_Ingestion_notebooks_in_pipeline.png)
 **The image shows the pipeline for automating Data Transformation workflows in Azure Data Factory**
-![Image of Data Factory Pipeline for automating Data transformation workflows](assets/images/f1_transformation_pipeline.png).
+![Image of Data Factory Pipeline for automating Data transformation workflows](assets/images/f1_transformation_pipeline.png)
 **Snapshot of the Databricks Dashboard Visualizations created on the final analysis results**
 
 ![Snapshot of Databricks Dashboard Visualization created](assets/images/f1_Dashboard_1.png).
@@ -80,7 +79,7 @@ In this project, working together in a team of three to produce 3 different dash
 - I used Python to grap OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
 - Data cleaning and transformation were performed.
 - PostgreSQL database was designed to store data.
-- The data was analyzed in ArcGIS Pro GIS desktop software,
+- The data was analyzed in ArcGIS Pro GIS desktop software.
 - A live dashboard was created to visualize the patterns in the data.
 - A regression model was used to learn the pattern of population growth and to project the population of Stuttgart City and the Stuttgart administrative area by 2040.
 - The workflow was automated to enable any update on the Baden-Wuerttemberg Statistic [**site**](https://www.statistik-bw.de/) to reflect in the dashboard. 
