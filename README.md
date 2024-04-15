@@ -1,8 +1,8 @@
-# Data Scientist/Data Engineer.
+# Data Scientist.
 
 ## Core Technologies: 
 - **Proficient**: Python, SQL, Spark, Microsoft Azure, Databricks, PostgreSQL, Tensorflow, Geographic Information Systems, ArcGIS Pro, QGIS, FME.   
-- **Familiar**: Git, AWS, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
+- **Familiar**: Git, Docker, AWS, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
 
 ## Education
 MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Applied Sciences(Sept. 2022- Feb. 2024).
@@ -12,12 +12,12 @@ MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Appli
 ## Work Experience.
 **Spatial Data Analyst @ Allianz SE Data and AI team (September 2023 - Present)**
 - Developed and maintained geospatial data pipelines to accurately and efficiently process geodata at scale.
-- Wrote Python scripts and models to extract property features from image data to improve property risk scoring and Insurance Premium Pricing.
-- Programmed Geospatial Data Intelligence workflows, extracting new features to enrich existing portfolio and
+- Developed pipelines and models to extract property features from image data to improve property risk scoring and Insurance Premium Pricing.
+- Developed Geospatial Data processing workflows, extracting new features to enrich existing portfolio and
 - Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
 - Optimized python models and reduced performance time from 4hrs to 4 minutes in one case.
 - Collaborated with cross-functional teams and stakeholders for requirements engineering and solutions development.
-- Technologies used: Python, SQL, PostgreSQL DB, Azure Synapse Analytics, QGIS, PostGIS.
+- Technologies used: Python, SQL, PostgreSQL DB, Azure Synapse Analytics, Spark, QGIS, PostGIS.
 
 **Co-founder and Business Lead @ Nukushare Agro Limited (March 2020 – July 2022)**
 - Planned and Directed Agricultural Input Credit Insurance Initiative in Ghana.
@@ -27,7 +27,7 @@ MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Appli
 
 ## Some Recent Open Projects:
 
-### 1. Live Population Dashboard project (Geospatial Data Engineering & Automation):
+### 1. Live Population Dashboard project (Geospatial Data Science & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
 - I used Python to scrape Baden-Wurttemberg population and migration statistic data,
 - I used Python to grap OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
@@ -43,7 +43,50 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 ![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
 
 
-### 2. Formula 1 Sport Historical Data Analytics Project (Data Engineering and Big Data Analytics).
+### 2. Google Play Store App Analytics (Exploratory Data Analytics).
+In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
+- which apps have the highest downloads?
+- what categories of apps are most downloaded?
+- what is the revenue potential for a paid app?
+- which categories and content type for paid apps make them sell?
+The overall goal is to develop an app pricing mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.
+[**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
+![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
+
+
+### 3. House Price Prediction project (Data Science & Machine Learning):
+In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
+- I started with exploratory data analysis.
+- Built a regression model to help predict the prices of new homes.
+- Used log transform to improve the distribution of the dataset.
+- Built the model again which is able to predict with 79% accuracy. 
+[**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi).
+![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
+
+
+### 4. Image Classification Project -- Clothing Images-- (Deep learning).
+Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
+
+- No. of unique classes to classify 10
+- Training data : 60,000 images
+- Testing data : 10,000 images
+- Image Size: 28x28 grayscale images.
+- Dataset Source: Tensorflow Fashion MNIST dataset.
+  
+Brief Summary: I built 3 different neural network classification models and compared their accuracy on the testing data. The best performing model achieved an accurary of 80%. Through the confusion matrix computed, it was observed that images of few classes such as T-shirt and Pullover were the most misclassified since their images tend to look quite familiar.
+[**The Notebook can be found here**](https://colab.research.google.com/drive/1i6y2JXadmIrjE873T11gfYiIgEAa6FgL)
+A look at the ![Confusion matrix:](assets/images/Confusion_matrix.png) 
+
+
+### 5. Image Classification project -- Food Images -- (Deep Learning with Transfer Learning).
+In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
+Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
+[**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
+
+![Sample Predicted Image](assets/images/hamburger.png)
+
+
+### 6. Formula 1 Sport Historical Data Analytics Project (Data Engineering and Big Data Analytics).
 In this project, I analysed the Ergast Formula1 sports database to understand the dominant drivers and dominant teams since the history of the sports. Doing this Data Engineering project enabled me to get proficient with Spark, Databricks, Azure Data Factory and refresh my SQL skill. 
 - I used Databricks, Pyspark and SparkSQL in Microsoft Azure environment for the project.
 - I wrote Pyspark and SparkSQL scripts to ingest all the data into Azure Datalake Storage Gen2(ADLS) with both full load and incremental loading approaches.
@@ -69,46 +112,14 @@ In this project, I analysed the Ergast Formula1 sports database to understand th
 ![Snapshot of Dashboard Visualization](assets/images/f1_Dashboard_2.png).
 
 
-### 3. Google Play Store App Analytics (Exploratory Data Analytics).
-In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
-- which apps have the highest downloads?
-- what categories of apps are most downloaded?
-- what is the revenue potential for a paid app?
-- which categories and content type for paid apps make them sell?
-The overall goal is to develop an app pricing mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.
-[**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
-![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
 
 
-### 4. House Price Prediction project (Data Science & Machine Learning):
-In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
-- I started with exploratory data analysis.
-- Built a regression model to help predict the prices of new homes.
-- Used log transform to improve the distribution of the dataset.
-- Built the model again which is able to predict with 79% accuracy. 
-[**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi).
-![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
 
-### 5. Image Classification Project -- Clothing Images-- (Deep learning).
-Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
 
-- No. of unique classes to classify 10
-- Training data : 60,000 images
-- Testing data : 10,000 images
-- Image Size: 28x28 grayscale images.
-- Dataset Source: Tensorflow Fashion MNIST dataset.
-  
-Brief Summary: I built 3 different neural network classification models and compared their accuracy on the testing data. The best performing model achieved an accurary of 80%. Through the confusion matrix computed, it was observed that images of few classes such as T-shirt and Pullover were the most misclassified since their images tend to look quite familiar.
-[**The Notebook can be found here**](https://colab.research.google.com/drive/1i6y2JXadmIrjE873T11gfYiIgEAa6FgL)
-A look at the ![Confusion matrix:](assets/images/Confusion_matrix.png)  
+ 
 
 
-### 6. Image Classification project -- Food Images -- (Deep Learning with Transfer Learning).
-In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
-Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
-[**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
 
-![Sample Predicted Image](assets/images/hamburger.png)
 
 
