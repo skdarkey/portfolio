@@ -2,7 +2,7 @@
 
 ## Core Technologies: 
 - **Proficient**: Python, SQL, Spark, Microsoft Azure, Databricks, PostgreSQL, Tensorflow, Geographic Information Systems, ArcGIS Pro, QGIS, FME.   
-- **Familiar**: Git, Docker, AWS, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
+- **Familiar**: Git, Github, Docker, AWS, Kubernetes, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
 
 ## Education
 MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Applied Sciences(Sept. 2022- Feb. 2024).
@@ -42,8 +42,15 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 
 ![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
 
+### 2. 3D Settlement Growth Analytics, Change Detection and Visualization (Geo Data Science):
+In this project, I created a robust methodology and a web application for settlement growth analysis, change detection, and visualization in 3D. 
+- I used the open-source World Settlement Footprint (raster data) and Citygml datasets of Stellingen and Niendorf in Germany,
+- Python geospatial libraries, Safe FME, QGIS, and Cesium, HTML, JavaScript and CSS technologies,
+- to create a robust data processing pipelines and a 3D visualization application for the 2 cities in Germany.
+- This application can be scaled and used to analyze and visualize the evolution of any city with ease.
+A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
 
-### 2. Google Play Store App Analytics (Exploratory Data Analytics).
+### 3. Google Play Store App Analytics (Exploratory Data Analytics).
 In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
 - which apps have the highest downloads?
 - what categories of apps are most downloaded?
@@ -54,7 +61,7 @@ The overall goal is to develop an app pricing mechanism to make data-informed de
 ![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
 
 
-### 3. House Price Prediction project (Data Science & Machine Learning):
+### 4. House Price Prediction project (Data Science & Machine Learning):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
 - I started with exploratory data analysis.
 - Built a regression model to help predict the prices of new homes.
@@ -64,7 +71,7 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 ![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
 
-### 4. Image Classification Project -- Clothing Images-- (Deep learning).
+### 5. Image Classification Project -- Clothing Images-- (Deep learning Computer Vision).
 Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
 
 - No. of unique classes to classify 10
@@ -78,7 +85,7 @@ Brief Summary: I built 3 different neural network classification models and comp
 A look at the ![Confusion matrix:](assets/images/Confusion_matrix.png) 
 
 
-### 5. Image Classification project -- Food Images -- (Deep Learning with Transfer Learning).
+### 6. Image Classification project -- Food Images -- (Deep Learning and Computer Vision).
 In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
 Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 [**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
@@ -86,7 +93,7 @@ Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 ![Sample Predicted Image](assets/images/hamburger.png)
 
 
-### 6. Formula 1 Sport Historical Data Analytics Project (Data Engineering and Big Data Analytics).
+### 7. Formula 1 Sport Historical Data Analytics Project (Data Engineering and Big Data Analytics).
 In this project, I analysed the Ergast Formula1 sports database to understand the dominant drivers and dominant teams since the history of the sports. Doing this Data Engineering project enabled me to get proficient with Spark, Databricks, Azure Data Factory and refresh my SQL skill. 
 - I used Databricks, Pyspark and SparkSQL in Microsoft Azure environment for the project.
 - I wrote Pyspark and SparkSQL scripts to ingest all the data into Azure Datalake Storage Gen2(ADLS) with both full load and incremental loading approaches.
