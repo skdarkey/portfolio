@@ -1,8 +1,8 @@
 # Data Scientist.
 
 ## Core Technologies: 
-- **Proficient**: Python, SQL, Spark, Microsoft Azure, Databricks, PostgreSQL, Tensorflow, Geographic Information Systems, ArcGIS Pro, QGIS, FME.   
-- **Familiar**: Git, Github, Docker, AWS, Kubernetes, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
+- **Proficient**: Python, SQL, Spark, Microsoft Azure, AWS, Databricks, PostgreSQL, Scikit-learn, Tensorflow, MLFlow, Geographic Information Systems, ArcGIS Pro, QGIS, FME.   
+- **Familiar**: Git, Github, Docker, Kubernetes, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
 
 ## Education
 MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Applied Sciences(Sept. 2022- Feb. 2024).
@@ -10,7 +10,7 @@ MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Appli
 [Other relevant courses completed](https://drive.google.com/file/d/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q/view?usp=sharing).
 
 ## Work Experience.
-**Spatial Data Analyst @ Allianz SE Data and AI team (September 2023 - Present)**
+**Geo Data Scientist (Intern) @ Allianz SE Data and AI team (September 2023 - Present)**
 - Developed and maintained geospatial data pipelines to accurately and efficiently process geodata at scale.
 - Developed pipelines and models to extract property features from image data to improve property risk scoring and Insurance Premium Pricing.
 - Developed Geospatial Data processing workflows, extracting new features to enrich existing portfolio and
@@ -27,7 +27,21 @@ MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Appli
 
 ## Some Recent Open Projects:
 
-### 1. Live Population Dashboard project (Geospatial Data Science & Automation):
+### 1. Google Play Store App Analytics (Exploratory Data Analytics).
+In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Android Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
+- which apps have the highest downloads?
+- what categories of apps are most downloaded?
+- what is the revenue potential for a paid app?
+- which categories and content type for paid apps make them sell?
+
+I then developed machine learning regression models to predict the potential number of downloads an app can get based on its category, type, content rating, price and size. I used Scikit-learn for model development, MLFlow for experiment tracking and selection of best most, Flask and Docker for packaging the model as an application, and AWS ECS for deploying the application as a web service. 
+
+The overall goal was to develop an app pricing and revenue forecasting mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market. A link to the EDA notebook is here.
+[**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
+![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
+The projects github repo can also be seen here.
+
+### 2. Live Population Dashboard project (Geospatial Data Science & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
 - I used Python to scrape Baden-Wurttemberg population and migration statistic data,
 - I used Python to grap OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
@@ -42,24 +56,13 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 
 ![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
 
-### 2. 3D Settlement Growth Analytics, Change Detection and Visualization (Geo Data Science):
+### 3. 3D Settlement Growth Analytics, Change Detection and Visualization (Geo Data Science):
 In this project, I created a robust methodology and a web application for settlement growth analysis, change detection, and visualization in 3D. 
 - I used the open-source World Settlement Footprint (raster data) and Citygml datasets of Stellingen and Niendorf in Germany,
 - Python geospatial libraries, Safe FME, QGIS, and Cesium, HTML, JavaScript and CSS technologies,
 - to create a robust data processing pipelines and a 3D visualization application for the 2 cities in Germany.
 - This application can be scaled and used to analyze and visualize the evolution of any city with ease.
 A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
-
-### 3. Google Play Store App Analytics (Exploratory Data Analytics).
-In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
-- which apps have the highest downloads?
-- what categories of apps are most downloaded?
-- what is the revenue potential for a paid app?
-- which categories and content type for paid apps make them sell?
-The overall goal is to develop an app pricing mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.
-[**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
-![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
-
 
 ### 4. House Price Prediction project (Data Science & Machine Learning):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
