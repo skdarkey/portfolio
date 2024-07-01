@@ -39,7 +39,8 @@ I then developed machine learning regression models to predict the potential num
 The overall goal was to develop an app pricing and revenue forecasting mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market. A link to the EDA notebook is here.
 [**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
 ![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
-The projects github repo can also be seen here.
+
+The projects GitHub repo can also be seen [**here**](https://github.com/skdarkey/andriod-apps-ml-project).
 
 ### 2. Live Population Dashboard project (Geospatial Data Science & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
