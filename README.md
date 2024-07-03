@@ -1,4 +1,6 @@
-# Data Scientist.
+# Core Competencies 
+## Data Science.
+## Data Engineering.
 
 ## Core Technologies: 
 - **Proficient**: Python, SQL, Spark, Microsoft Azure, AWS, Databricks, PostgreSQL, Scikit-learn, Tensorflow, MLFlow, Geographic Information Systems, ArcGIS Pro, QGIS, FME.   
@@ -10,19 +12,25 @@ MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Appli
 [Other relevant courses completed](https://drive.google.com/file/d/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q/view?usp=sharing).
 
 ## Work Experience.
-**Geo Data Scientist (Intern) @ Allianz SE Data and AI team (September 2023 - Present)**
-- Developed and maintained geospatial data pipelines to accurately and efficiently process geodata at scale.
-- Developed pipelines and models to extract property features from image data to improve property risk scoring and Insurance Premium Pricing.
-- Developed Geospatial Data processing workflows, extracting new features to enrich existing portfolio and
-- Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
-- Optimized python models and reduced performance time from 4hrs to 4 minutes in one case.
+**Geospatial Data Scientist – Intern – Allianz SE Data & AI team – March 2024 – Present.**
+-	Created ETL pipelines to automatically download image data from wms server for portfolio buildings in France into ADLS Gen2 storage.
+-	Assisting in predictive models’ development for property features estimation.
+-	Developed and improved Python workflows for property feature extraction.
+-	reduced processing time from 4hrs to 4 minutes in one case.
 - Collaborated with cross-functional teams and stakeholders for requirements engineering and solutions development.
-- Technologies used: Python, SQL, PostgreSQL DB, Azure Synapse Analytics, Spark, QGIS, PostGIS.
+- Collaborated with technical team for code reviews.
+
+**Geo-Data Analyst – Working Student – Allianz SE  – Sept. 2023 – March 2024.**
+- Developed and maintained geospatial data pipelines to process geodata at scale.
+- Developed workflows with Python to extract property features from remote sensing data to improve portfolio property risk scoring and premium pricing.
+- Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
+- Collaborated with cross-functional teams and stakeholders for requirements engineering and solutions development
+Technologies Used: Python, SQL, PostgreSQL DB, PostGIS, ArcGIS, QGIS, GDAL, Spark and Azure Synapse Analytics.
 
 **Co-founder and Business Lead @ Nukushare Agro Limited (March 2020 – July 2022)**
+- Analysed remote sensing Data for Crop risk scoring and farmer-credit management.
 - Planned and Directed Agricultural Input Credit Insurance Initiative in Ghana.
 - Coordinating research into Climate Risk Mitigation and Adaptation measures in the agriculture sector of Ghana.
-- Analysed Geospatial Data for Crop risk scoring and farmer-credit management.
 
 
 ## Some Recent Open Projects:
@@ -40,16 +48,16 @@ The overall goal was to develop an app pricing and revenue forecasting mechanism
 [**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
 ![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
 
-The projects GitHub repo can also be seen [**here**](https://github.com/skdarkey/andriod-apps-ml-project).
+**The projects GitHub repo can also be seen** [**here**](https://github.com/skdarkey/andriod-apps-ml-project).
 
 ### 2. Live Population Dashboard project (Geospatial Data Science & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
-- I used Python to scrape Baden-Wurttemberg population and migration statistic data,
-- I used Python to grap OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
+- I used *Python* to scrape Baden-Wurttemberg population and migration statistic data,
+- I used Python to download OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
 - Data cleaning and transformation were performed using python.
-- PostgreSQL database was designed to store data.
-- The data was analyzed in ArcGIS Pro GIS desktop software.
-- A live dashboard was created to visualize the patterns in the data.
+- *PostgreSQL* database was designed to store data and *SQLAlchemy* and *psycopg* were used in writing data to db.
+- Ddata transformation and analysis was done in ArcGIS Pro GIS desktop software.
+- A live dashboard was created to visualize the patterns in the data using ArcGIS Online.
 - A regression model was used to learn the pattern of population growth and to project the population of Stuttgart City and the Stuttgart administrative area by 2040.
 - The workflow was automated to enable any update on the Baden-Wuerttemberg Statistic [**site**](https://www.statistik-bw.de/) to reflect in the dashboard. 
 A short video on the project can be seen here. [**Video**](https://youtu.be/H-GCY9xvKJI).
@@ -60,7 +68,7 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 ### 3. 3D Settlement Growth Analytics, Change Detection and Visualization (Geo Data Science):
 In this project, I created a robust methodology and a web application for settlement growth analysis, change detection, and visualization in 3D. 
 - I used the open-source World Settlement Footprint (raster data) and Citygml datasets of Stellingen and Niendorf in Germany,
-- Python geospatial libraries, Safe FME, QGIS, and Cesium, HTML, JavaScript and CSS technologies,
+- Python geospatial libraries, *Safe FME*, *QGIS*, and *Cesium*, *HTML*, *JavaScript* and *CSS* technologies,
 - to create a robust data processing pipelines and a 3D visualization application for the 2 cities in Germany.
 - This application can be scaled and used to analyze and visualize the evolution of any city with ease.
 A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
