@@ -1,6 +1,9 @@
-# Core Competencies 
-* **Data Science**
-* **Data Engineering**
+# Portfolio Projects Page
+Scrol down to see projects!
+
+## Core Competencies 
+* #### Data Science
+* #### Data Engineering
 
 ## Core Technologies: 
 - **Proficient**: Python, SQL, Spark, Microsoft Azure, AWS, Databricks, PostgreSQL, Scikit-learn, Tensorflow, MLFlow, Geographic Information Systems, ArcGIS Pro, QGIS, FME.   
@@ -24,8 +27,8 @@ MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Appli
 - Developed and maintained geospatial data pipelines to process geodata at scale.
 - Developed workflows with Python to extract property features from remote sensing data to improve portfolio property risk scoring and premium pricing.
 - Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
-- Collaborated with cross-functional teams and stakeholders for requirements engineering and solutions development
-Technologies Used: Python, SQL, PostgreSQL DB, PostGIS, ArcGIS, QGIS, GDAL, Spark and Azure Synapse Analytics.
+- Collaborated with cross-functional teams and stakeholders for requirements engineering and solutions development.
+```Technologies Used: Python, SQL, PostgreSQL DB, PostGIS, ArcGIS, QGIS, GDAL, Spark and Azure Synapse Analytics.```
 
 **Co-founder and Business Lead @ Nukushare Agro Limited (March 2020 – July 2022)**
 - Analysed remote sensing Data for Crop risk scoring and farmer-credit management.
