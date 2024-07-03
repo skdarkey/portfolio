@@ -1,6 +1,6 @@
 # Core Competencies 
-## Data Science.
-## Data Engineering.
+* **Data Science**
+* **Data Engineering**
 
 ## Core Technologies: 
 - **Proficient**: Python, SQL, Spark, Microsoft Azure, AWS, Databricks, PostgreSQL, Scikit-learn, Tensorflow, MLFlow, Geographic Information Systems, ArcGIS Pro, QGIS, FME.   
