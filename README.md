@@ -38,7 +38,7 @@ MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Appli
 
 # Some Recent Open Projects:
 
-### 1. Google Play Store App Analytics (Exploratory Data Analytics).
+### 1. Google Play Store App Analytics (Machine Learning: Development to Deployment).
 In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Android Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
 - which apps have the highest downloads?
 - what categories of apps are most downloaded?
