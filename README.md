@@ -1,5 +1,5 @@
 # Hi, welcome to my page.
-Please scrol down to see all projects!<br />
+Here you get to know me and see some of my open projects!<br />
 Feel like reaching out, email me @ skdarkey@gmail.com
 
 ## Core Competencies 
