@@ -10,8 +10,8 @@ Scrol down to see projects!
 - **Familiar**: Git, Github, Docker, Kubernetes, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
 
 ## Education
-Postgraduate Research (PhD) Student - Environmental Intelligence - University of Exeter (Sept. 2024 - Present).
-MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Applied Sciences(Sept. 2022- Feb. 2024).
+- Postgraduate Research (PhD) Student - Environmental Intelligence - University of Exeter (Sept. 2024 - Present).
+- MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Applied Sciences(Sept. 2022- Feb. 2024).
 
 [Other relevant courses completed](https://drive.google.com/file/d/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q/view?usp=sharing).
 
@@ -69,8 +69,9 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 
 ![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
 
+
 ### 3. 3D Settlement Growth Analytics, Change Detection and Visualization (Geo Data Science):
-![Front-End](assets/images/Thesis_prj1.png)
+![Front-End](assets/images/Thesis_prj1.png).
 In this project, I created a robust methodology and a web application for settlement growth analysis, change detection, and visualization in 3D. 
 - I used the open-source World Settlement Footprint (raster data) and Citygml datasets of Stellingen and Niendorf in Germany,
 - Python geospatial libraries, *Safe FME*, *QGIS*, and *Cesium*, *HTML*, *JavaScript* and *CSS* technologies,
@@ -78,10 +79,12 @@ In this project, I created a robust methodology and a web application for settle
 - This application can be scaled and used to analyze and visualize the evolution of any city with ease.
 A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
 
+
 ### 4. Computer Vision for Solar Panels Extraction from Satellite Imagery. 
 ![Project Summary](assets/images/Solar_Panels_Project1.png)
 ![Model's Result and Panel properties extracted](assets/images/Solar_Panels_Project2.png).
 [**Excel Sheet for all solar panel properties extracted**](predicted_solar_panel.xlsx)
+
 
 ### 5. House Price Prediction project (Data Science & Machine Learning):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
