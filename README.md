@@ -39,7 +39,7 @@ Scrol down to see projects!
 
 # Some Recent Open Projects:
 
-### 1. Google Play Store App Analytics (Machine Learning: Development to Deployment).
+### 1. Google Play Store App Analytics (Machine Learning: Development to Deployment on AWS).
 In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Android Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
 - which apps have the highest downloads?
 - what categories of apps are most downloaded?
@@ -48,7 +48,8 @@ In this project, I did a comprehensive analysis of the Android app market by com
 
 I then developed machine learning regression models to predict the potential number of downloads an app can get based on its category, type, content rating, price and size. I used Scikit-learn for model development, MLFlow for experiment tracking and selection of best most, Flask and Docker for packaging the model as an application, and AWS ECS for deploying the application as a web service. 
 
-The overall goal was to develop an app pricing and revenue forecasting mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market. A link to the EDA notebook is here.
+The overall goal was to develop an app pricing and revenue forecasting mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.<br /> 
+
 [**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
 ![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
 
@@ -82,8 +83,8 @@ A short video on the project can be seen here: [**Video**](https://youtu.be/43EB
 
 ### 4. Computer Vision for Solar Panels Extraction from Satellite Imagery. 
 ![Project Summary](assets/images/Solar_Panels_Project1.png)
-![Model's Result and Panel properties extracted](assets/images/Solar_Panels_Project2.png).
-[**Excel Sheet for all solar panel properties extracted**](predicted_solar_panel.xlsx)
+![Model's Result and Panel properties extracted](assets/images/Solar_Panels_Project2.png)
+- [**Excel Sheet for all solar panel properties extracted**](predicted_solar_panel.xlsx)
 
 
 ### 5. House Price Prediction project (Data Science & Machine Learning):
@@ -91,8 +92,8 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 - I started with exploratory data analysis.
 - Built a regression model to help predict the prices of new homes.
 - Used log transform to improve the distribution of the dataset.
-- Built the model again which is able to predict with 79% accuracy. 
-[**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi).
+- Built the model again which is able to predict with 79% accuracy.<br />
+[**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi).<br />
 ![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
 
@@ -105,9 +106,9 @@ Using TensorFlow Deep Learning library and Python, I built neural network image 
 - Image Size: 28x28 grayscale images.
 - Dataset Source: Tensorflow Fashion MNIST dataset.
   
-Brief Summary: I built 3 different neural network classification models and compared their accuracy on the testing data. The best performing model achieved an accurary of 80%. Through the confusion matrix computed, it was observed that images of few classes such as T-shirt and Pullover were the most misclassified since their images tend to look quite familiar.
-[**The Notebook can be found here**](https://colab.research.google.com/drive/1i6y2JXadmIrjE873T11gfYiIgEAa6FgL)
-A look at the ![Confusion matrix:](assets/images/Confusion_matrix.png) 
+Brief Summary: I built 3 different neural network classification models and compared their accuracy on the testing data. The best performing model achieved an accurary of 80%. Through the confusion matrix computed, it was observed that images of few classes such as T-shirt and Pullover were the most misclassified since their images tend to look quite familiar.<br />
+[**The Notebook can be found here**](https://colab.research.google.com/drive/1i6y2JXadmIrjE873T11gfYiIgEAa6FgL) <br />
+![Confusion matrix:](assets/images/Confusion_matrix.png) 
 
 
 ### 7. Image Classification project -- Food Images -- (Deep Learning and Computer Vision).
