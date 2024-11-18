@@ -70,6 +70,7 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 ![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
 
 ### 3. 3D Settlement Growth Analytics, Change Detection and Visualization (Geo Data Science):
+![Front-End](assets/images/Thesis_prj1.png)
 In this project, I created a robust methodology and a web application for settlement growth analysis, change detection, and visualization in 3D. 
 - I used the open-source World Settlement Footprint (raster data) and Citygml datasets of Stellingen and Niendorf in Germany,
 - Python geospatial libraries, *Safe FME*, *QGIS*, and *Cesium*, *HTML*, *JavaScript* and *CSS* technologies,
@@ -80,7 +81,7 @@ A short video on the project can be seen here: [**Video**](https://youtu.be/43EB
 ### 4. Computer Vision for Solar Panels Extraction from Satellite Imagery. 
 ![Project Summary](assets/images/Solar_Panels_Project1.png)
 ![Model's Result and Panel properties extracted](assets/images/Solar_Panels_Project2.png).
-[**Excel Sheet for all solar panel properties extracted]()
+[**Excel Sheet for all solar panel properties extracted**](predicted_solar_panel.xlsx)
 
 ### 5. House Price Prediction project (Data Science & Machine Learning):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
