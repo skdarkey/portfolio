@@ -1,5 +1,6 @@
-# Portfolio Projects Page
-Scrol down to see projects!
+# Hi, welcome to my page.
+Please scrol down to see all projects!<br />
+Feel like reaching out, email me @ skdarkey@gmail.com
 
 ## Core Competencies 
 * #### Geospatial Data Science
