@@ -2,7 +2,7 @@
 Scrol down to see projects!
 
 ## Core Competencies 
-* #### Data Science
+* #### Geospatial Data Science
 * #### Data Engineering
 
 ## Core Technologies: 
@@ -10,12 +10,13 @@ Scrol down to see projects!
 - **Familiar**: Git, Github, Docker, Kubernetes, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
 
 ## Education
+Postgraduate Research (PhD) Student - Environmental Intelligence - University of Exeter (Sept. 2024 - Present).
 MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Applied Sciences(Sept. 2022- Feb. 2024).
 
 [Other relevant courses completed](https://drive.google.com/file/d/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q/view?usp=sharing).
 
 ## Work Experience.
-**Geospatial Data Scientist – Intern – Allianz SE Data & AI team – March 2024 – Present.**
+**Geospatial Data Scientist – Intern – Allianz SE Data & AI team – March 2024 – August 2024.**
 -	Created ETL pipelines to automatically download image data from wms server for portfolio buildings in France into ADLS Gen2 storage.
 -	Assisting in predictive models’ development for property features estimation.
 -	Developed and improved Python workflows for property feature extraction.
@@ -76,7 +77,12 @@ In this project, I created a robust methodology and a web application for settle
 - This application can be scaled and used to analyze and visualize the evolution of any city with ease.
 A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
 
-### 4. House Price Prediction project (Data Science & Machine Learning):
+### 4. Computer Vision for Solar Panels Extraction from Satellite Imagery. 
+![Project Summary](assets/images/Solar_Panels_Project1.png)
+![Model's Result and Panel properties extracted](assets/images/Solar_Panels_Project2.png).
+[**Excel Sheet for all solar panel properties extracted]()
+
+### 5. House Price Prediction project (Data Science & Machine Learning):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
 - I started with exploratory data analysis.
 - Built a regression model to help predict the prices of new homes.
@@ -86,7 +92,7 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 ![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
 
-### 5. Image Classification Project -- Clothing Images-- (Deep learning Computer Vision).
+### 6. Image Classification Project -- Clothing Images-- (Deep learning Computer Vision).
 Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
 
 - No. of unique classes to classify 10
@@ -100,7 +106,7 @@ Brief Summary: I built 3 different neural network classification models and comp
 A look at the ![Confusion matrix:](assets/images/Confusion_matrix.png) 
 
 
-### 6. Image Classification project -- Food Images -- (Deep Learning and Computer Vision).
+### 7. Image Classification project -- Food Images -- (Deep Learning and Computer Vision).
 In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
 Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 [**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
@@ -108,7 +114,7 @@ Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 ![Sample Predicted Image](assets/images/hamburger.png)
 
 
-### 7. Formula 1 Sport Historical Data Analytics Project (Data Engineering and Big Data Analytics).
+### 8. Formula 1 Sport Historical Data Analytics Project (Data Engineering and Big Data Analytics).
 In this project, I analysed the Ergast Formula1 sports database to understand the dominant drivers and dominant teams since the history of the sports. Doing this Data Engineering project enabled me to get proficient with Spark, Databricks, Azure Data Factory and refresh my SQL skill. 
 - I used Databricks, Pyspark and SparkSQL in Microsoft Azure environment for the project.
 - I wrote Pyspark and SparkSQL scripts to ingest all the data into Azure Datalake Storage Gen2(ADLS) with both full load and incremental loading approaches.
@@ -132,15 +138,6 @@ In this project, I analysed the Ergast Formula1 sports database to understand th
 
 ![Snapshot of Databricks Dashboard Visualization created](assets/images/f1_Dashboard_1.png).
 ![Snapshot of Dashboard Visualization](assets/images/f1_Dashboard_2.png).
-
-
-
-
-
-
-
- 
-
 
 
 
