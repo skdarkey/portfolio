@@ -71,7 +71,7 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 
 
 ### 3. 3D Settlement Growth Analytics, Change Detection and Visualization (Geo Data Science):
-![Front-End](assets/images/Thesis_prj1.png).
+![Front-End](assets/images/Thesis_prj1.png) <br />
 In this project, I created a robust methodology and a web application for settlement growth analysis, change detection, and visualization in 3D. 
 - I used the open-source World Settlement Footprint (raster data) and Citygml datasets of Stellingen and Niendorf in Germany,
 - Python geospatial libraries, *Safe FME*, *QGIS*, and *Cesium*, *HTML*, *JavaScript* and *CSS* technologies,
