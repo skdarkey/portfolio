@@ -92,10 +92,9 @@ I then developed machine learning regression models to predict the potential num
 
 The overall goal was to develop an app pricing and revenue forecasting mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.<br /> 
 
-[**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
+**The projects GitHub repo can also be seen** [**here**](https://github.com/skdarkey/andriod-apps-ml-project).
 ![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
 
-**The projects GitHub repo can also be seen** [**here**](https://github.com/skdarkey/andriod-apps-ml-project).
 
 ### 6. Image Classification Project -- Clothing Images-- (Deep learning Computer Vision).
 Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
@@ -111,7 +110,7 @@ Brief Summary: I built 3 different neural network classification models and comp
 ![Confusion matrix:](assets/images/Confusion_matrix.png) 
 
 
-### 7. Image Classification project -- Food Images -- (Deep Learning and Computer Vision).
+### 7. Image Classification project -- Food Images -- (Deep Learning, Computer Vision & Transfer Learning).
 In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
 Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 [**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
@@ -119,7 +118,7 @@ Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 ![Sample Predicted Image](assets/images/hamburger.png)
 
 
-### 8. Formula 1 Sport Historical Data Analytics Project (Data Engineering and Big Data Analytics).
+### 8. Formula 1 Sport Historical Data Analytics Project (Data Engineering with Spark and Databricks).
 In this project, I analysed the Ergast Formula1 sports database to understand the dominant drivers and dominant teams since the history of the sports. Doing this Data Engineering project enabled me to get proficient with Spark, Databricks, Azure Data Factory and refresh my SQL skill. 
 - I used Databricks, Pyspark and SparkSQL in Microsoft Azure environment for the project.
 - I wrote Pyspark and SparkSQL scripts to ingest all the data into Azure Datalake Storage Gen2(ADLS) with both full load and incremental loading approaches.
