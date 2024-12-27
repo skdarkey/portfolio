@@ -40,23 +40,7 @@ Feel like reaching out, email me @ skdarkey@gmail.com
 
 # Some Recent Open Projects:
 
-### 1. Google Play Store App Analytics (Machine Learning: Development to Deployment on AWS).
-In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Android Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
-- which apps have the highest downloads?
-- what categories of apps are most downloaded?
-- what is the revenue potential for a paid app?
-- which categories and content type for paid apps make them sell?
-
-I then developed machine learning regression models to predict the potential number of downloads an app can get based on its category, type, content rating, price and size. I used Scikit-learn for model development, MLFlow for experiment tracking and selection of best most, Flask and Docker for packaging the model as an application, and AWS ECS for deploying the application as a web service. 
-
-The overall goal was to develop an app pricing and revenue forecasting mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.<br /> 
-
-[**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
-![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
-
-**The projects GitHub repo can also be seen** [**here**](https://github.com/skdarkey/andriod-apps-ml-project).
-
-### 2. Live Population Dashboard project (Geospatial Data Science & Automation):
+### 1. Live Population Dashboard project (Geospatial Data Science & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
 - I used *Python* to scrape Baden-Wurttemberg population and migration statistic data,
 - I used Python to download OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
@@ -72,7 +56,7 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 ![A snapshot of the dashboard](assets/images/Stuttgart_Dashboard_c.png)
 
 
-### 3. 3D Settlement Growth Analytics, Change Detection and Visualization (Geo Data Science):
+### 2. 3D Settlement Growth Analytics, Change Detection and Visualization (Geo Data Science):
 ![Front-End](assets/images/Thesis_prj1.png) <br />
 In this project, I created a robust methodology and a web application for settlement growth analysis, change detection, and visualization in 3D. 
 - I used the open-source World Settlement Footprint (raster data) and Citygml datasets of Stellingen and Niendorf in Germany,
@@ -82,13 +66,13 @@ In this project, I created a robust methodology and a web application for settle
 A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
 
 
-### 4. Computer Vision for Solar Panels Extraction from Satellite Imagery. 
+### 3. Computer Vision for Solar Panels Extraction from Satellite Imagery. 
 ![Project Summary](assets/images/Solar_Panels_Project1.png)
 ![Model's Result and Panel properties extracted](assets/images/Solar_Panels_Project2.png)
 - [**Excel Sheet for all solar panel properties extracted**](predicted_solar_panel.xlsx)
 
 
-### 5. House Price Prediction project (Data Science & Machine Learning):
+### 4. House Price Prediction project (Data Science & Machine Learning):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
 - I started with exploratory data analysis.
 - Built a regression model to help predict the prices of new homes.
@@ -97,6 +81,21 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 [**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi).<br />
 ![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
+### 5. Google Play Store App Analytics (Goal: Machine Learning Task from Development to Deployment on AWS).
+In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Android Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
+- which apps have the highest downloads?
+- what categories of apps are most downloaded?
+- what is the revenue potential for a paid app?
+- which categories and content type for paid apps make them sell?
+
+I then developed machine learning regression models to predict the potential number of downloads an app can get based on its category, type, content rating, price and size. I used Scikit-learn for model development, MLFlow for experiment tracking and selection of best most, Flask and Docker for packaging the model as an application, and AWS ECS for deploying the application as a web service. 
+
+The overall goal was to develop an app pricing and revenue forecasting mechanism to make data-informed decisions in pricing and categorizing new apps to ensure their success in the Android app market.<br /> 
+
+[**Project Notebook can be seen here**](https://colab.research.google.com/drive/1D30kB7bMBgJ77mZqfdnClBh7lHJQi39B)
+![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
+
+**The projects GitHub repo can also be seen** [**here**](https://github.com/skdarkey/andriod-apps-ml-project).
 
 ### 6. Image Classification Project -- Clothing Images-- (Deep learning Computer Vision).
 Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
