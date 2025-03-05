@@ -1,18 +1,18 @@
 # Hi, welcome to my page.
 Here you get to know me and see some of my open projects!<br />
-Feel like reaching out, email me @ skdarkey@gmail.com
+Want to reach out, email me @ skdarkey@gmail.com.
 
 ## Core Competencies 
-* #### Geospatial Data Science
-* #### Data Engineering
+* #### Machine Learning Engineering
+* #### Spatial Data Science
 
-## Core Technologies: 
-- **Proficient**: Python, SQL, Spark, Microsoft Azure, AWS, Databricks, PostgreSQL, Scikit-learn, Tensorflow, MLFlow, Geographic Information Systems, ArcGIS Pro, QGIS, FME.   
-- **Familiar**: Git, Github, Docker, Kubernetes, SAS Base and Advanced Programming, HTML, JavaScript, CSS, Django.
+## Technologies: 
+- **Core**: Python, SQL, Spark, PostgreSQL, Scikit-learn, Tensorflow, Pytorch, MLFlow, Microsoft Azure, AWS, Databricks, ArcGIS Pro, QGIS, GDAL.   
+- **Proficient**: HTML, CSS, JavaScript, NodeJS, Git, Github, Docker, Kubernetes.
 
 ## Education
-- Postgraduate Research (PhD) Student - Environmental Intelligence - University of Exeter (Sept. 2024 - Present).
-- MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Applied Sciences(Sept. 2022- Feb. 2024).
+- PhD - Environmental Intelligence - University of Exeter (Sept. 2024 - Present).
+- MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Applied Sciences, Germany (Sept. 2022- Feb. 2024).
 
 [Other relevant courses completed](https://drive.google.com/file/d/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q/view?usp=sharing).
 
@@ -30,7 +30,6 @@ Feel like reaching out, email me @ skdarkey@gmail.com
 - Developed workflows with Python to extract property features from remote sensing data to improve portfolio property risk scoring and premium pricing.
 - Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
 - Collaborated with cross-functional teams and stakeholders for requirements engineering and solutions development.
-```Technologies Used: Python, SQL, PostgreSQL DB, PostGIS, ArcGIS, QGIS, GDAL, Spark and Azure Synapse Analytics.```
 
 **Co-founder and Business Lead @ Nukushare Agro Limited (March 2020 – July 2022)**
 - Analysed remote sensing Data for Crop risk scoring and farmer-credit management.
@@ -66,13 +65,35 @@ In this project, I created a robust methodology and a web application for settle
 A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
 
 
-### 3. Computer Vision for Solar Panels Extraction from Satellite Imagery. 
-![Project Summary](assets/images/Solar_Panels_Project1.png)
-![Model's Result and Panel properties extracted](assets/images/Solar_Panels_Project2.png)
+### 3. Computer Vision Object Detection -- Solar Panels Extraction from Satellite Imagery. 
+Using Pytorch and YOLOv8 model, I trained an object detection model to detect and extract relevant properties of solar panels in satellite images.
+-  2546 TIF images from Germany provided by Maxar Technologies.
+-  60 : 20 : 20: training, validation and testing datasets.
+-  I detected solar panels, extracted and projected them to their real world coordinates, and measured their sizes.
+-  Precision of 0.5 and Recall of 0.3.
+
+Summary and Challenges faced: 
+-  Training was cut short due to usage of google colab and limited compute.
+-  Inference was very fast and ground-truth checks were mostly accurate.
+
+![Model's Result Image and Panel properties extracted](assets/images/Solar_Panels_Project2.png)
 - [**Excel Sheet for all solar panel properties extracted**](predicted_solar_panel.xlsx)
 
+### 4. Computer Vision Image Classification -- Clothing Images classification.
+Using TensorFlow Deep Learning library and Python, I built CNN image classification models in attempt to classify images of different items of clothings.
 
-### 4. House Price Prediction project (Data Science & Machine Learning):
+- No. of unique classes to classify 10
+- Training data : 60,000 images
+- Testing data : 10,000 images
+- Image Size: 28x28 grayscale images.
+- Dataset Source: Tensorflow Fashion MNIST dataset.
+  
+Brief Summary: I built 3 different neural network classification models and compared their accuracy on the testing data. The best performing model achieved an accurary of 80%. Through the confusion matrix computed, it was observed that images of few classes such as T-shirt and Pullover were the most misclassified since their images tend to look quite familiar.<br />
+[**The Notebook can be found here**](https://colab.research.google.com/drive/1i6y2JXadmIrjE873T11gfYiIgEAa6FgL) <br />
+![Confusion matrix:](assets/images/Confusion_matrix.png) 
+
+
+### 5. House Price Prediction project (Data Science & Machine Learning):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
 - I started with exploratory data analysis.
 - Built a regression model to help predict the prices of new homes.
@@ -81,7 +102,7 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 [**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi).<br />
 ![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
-### 5. Google Play Store App Analytics (Goal: Machine Learning Task from Development to Deployment on AWS).
+### 6. Google Play Store App Analytics (Goal: Machine Learning Task from Development to Deployment on AWS).
 In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Android Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
 - which apps have the highest downloads?
 - what categories of apps are most downloaded?
@@ -94,20 +115,6 @@ The overall goal was to develop an app pricing and revenue forecasting mechanism
 
 **The projects GitHub repo can also be seen** [**here**](https://github.com/skdarkey/andriod-apps-ml-project).
 ![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
-
-
-### 6. Image Classification Project -- Clothing Images-- (Deep learning Computer Vision).
-Using TensorFlow Deep Learning library and Python, I built neural network image classification models in attempt to classify images of different items of clothings.
-
-- No. of unique classes to classify 10
-- Training data : 60,000 images
-- Testing data : 10,000 images
-- Image Size: 28x28 grayscale images.
-- Dataset Source: Tensorflow Fashion MNIST dataset.
-  
-Brief Summary: I built 3 different neural network classification models and compared their accuracy on the testing data. The best performing model achieved an accurary of 80%. Through the confusion matrix computed, it was observed that images of few classes such as T-shirt and Pullover were the most misclassified since their images tend to look quite familiar.<br />
-[**The Notebook can be found here**](https://colab.research.google.com/drive/1i6y2JXadmIrjE873T11gfYiIgEAa6FgL) <br />
-![Confusion matrix:](assets/images/Confusion_matrix.png) 
 
 
 ### 7. Image Classification project -- Food Images -- (Deep Learning, Computer Vision & Transfer Learning).
