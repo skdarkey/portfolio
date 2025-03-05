@@ -11,7 +11,7 @@ Want to reach out, email me @ skdarkey@gmail.com.
 - **Proficient**: HTML, CSS, JavaScript, NodeJS, Git, Github, Docker, Kubernetes.
 
 ## Education
-- PhD - Environmental Intelligence - University of Exeter (Sept. 2024 - Present).
+- PhD - CDT Environmental Intelligence - University of Exeter (Sept. 2024 - Present).
 - MSc Photogrammetry and Geoinformatics - Stuttgart Technology University of Applied Sciences, Germany (Sept. 2022- Feb. 2024).
 
 [Other relevant courses completed](https://drive.google.com/file/d/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q/view?usp=sharing).
