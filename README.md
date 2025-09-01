@@ -8,7 +8,7 @@ Want to reach out, email me @ skdarkey@gmail.com.
 
 ## Technologies: 
 - **Core**: Python, SQL, Spark, PostgreSQL, Scikit-learn, Tensorflow, Pytorch, MLFlow, Microsoft Azure, AWS, Databricks, ArcGIS Pro, QGIS, GDAL.   
-- **Proficient**: HTML, CSS, JavaScript, NodeJS, Git, Github, Docker, Kubernetes.
+- **Proficient**: HTML, CSS, JavaScript, NodeJS, Git, Github, Docker, Kubernetes, SAS.
 
 ## Education
 - PhD - CDT Environmental Intelligence - University of Exeter (Sept. 2024 - Present).
@@ -17,7 +17,7 @@ Want to reach out, email me @ skdarkey@gmail.com.
 [Other relevant courses completed](https://drive.google.com/file/d/1XITClVEXs65wSQ_GCgq-y1CT8l9H8U9q/view?usp=sharing).
 
 ## Work Experience.
-**Geospatial Data Scientist – Intern – Allianz SE Data & AI team – March 2024 – August 2024.**
+**Geospatial Data Scientist – Allianz SE Global Data & AI team – March 2024 – August 2024.**
 -	Created ETL pipelines to automatically download image data from wms server for portfolio buildings in France into ADLS Gen2 storage.
 -	Assisting in predictive models’ development for property features estimation.
 -	Developed and improved Python workflows for property feature extraction.
@@ -25,7 +25,7 @@ Want to reach out, email me @ skdarkey@gmail.com.
 - Collaborated with cross-functional teams and stakeholders for requirements engineering and solutions development.
 - Collaborated with technical team for code reviews.
 
-**Geo-Data Analyst – Working Student – Allianz SE  – Sept. 2023 – March 2024.**
+**Geo-Data Analyst – Allianz SE Global Data & AI team  – Sept. 2023 – March 2024.**
 - Developed and maintained geospatial data pipelines to process geodata at scale.
 - Developed workflows with Python to extract property features from remote sensing data to improve portfolio property risk scoring and premium pricing.
 - Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
