@@ -73,7 +73,8 @@ A short video on the project can be seen here: [**Video**](https://youtu.be/43EB
 -  I post-processed the inference results into a fully ready tree-crowns dataset with over 1 million trees across UK.
 
 ![Model's Inference Images Samples](assets/images/tree_crowns_single_inference.png)
-![Model's Inference Images Samples](assets/images/tree_crowns_MRCNN_YOLO.png)
+![Model's Inference Images Sample](assets/images/tree_crowns_MRCNN_YOLO1.png)
+![Model's Inference Image Samples](assets/images/tree_crowns_MRCNN_YOLO2.png)
 
 
 ### 4. Computer Vision Object Detection -- Solar Panels Extraction from Satellite Imagery. 
