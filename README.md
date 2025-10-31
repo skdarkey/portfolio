@@ -39,7 +39,7 @@ Want to reach out, email me @ skdarkey@gmail.com.
 
 # Some Recent Open Projects:
 
-### 1. Live Population Dashboard project (Geospatial Data Science & Automation):
+### 1. Live Population Dashboard project (Geospatial Data Engineering & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
 - I used *Python* to scrape Baden-Wurttemberg population and migration statistic data,
 - I used Python to download OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
@@ -65,7 +65,7 @@ In this project, I created a robust methodology and a web application for settle
 A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
 
 
-### 3. Tree Instances Detection and Segmentation from Satellite Imagery. 
+### 3. Tree Instances Detection and Segmentation from Satellite Imagery (Computer Vision). 
 -  I downloaded Satellite images of the AOI.
 -  I manually annotated the trees in the image chips to create a training dataset.
 -  I developed and trained a Masked R-CNN model for tree instances segmentation, achieving a precision of 0.79 and recall of 0.70.
