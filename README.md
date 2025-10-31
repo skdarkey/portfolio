@@ -3,7 +3,7 @@ Here you get to know me and see some of my open projects!<br />
 Want to reach out, email me @ skdarkey@gmail.com.
 
 ## Core Competencies 
-* #### Machine Learning Engineering
+* #### Machine Learning Engineering [AWS Certified Specialist](https://www.credly.com/badges/31331771-9fca-4a3f-8bd7-72f40f5d3913/public_url)
 * #### Spatial Data Science
 
 ## Technologies: 
@@ -28,7 +28,7 @@ Want to reach out, email me @ skdarkey@gmail.com.
 **Geo-Data Analyst – Allianz SE Global Data & AI team  – Sept. 2023 – March 2024.**
 - Developed and maintained geospatial data pipelines to process geodata at scale.
 - Developed workflows with Python to extract property features from remote sensing data to improve portfolio property risk scoring and premium pricing.
-- Created additional annual gain of between 0.5% - 0.8% on $400m insurance portfolio.
+- Created additional annual gain of about 0.8% on $400m insurance portfolio.
 - Collaborated with cross-functional teams and stakeholders for requirements engineering and solutions development.
 
 **Co-founder and Business Lead @ Nukushare Agro Limited (March 2020 – July 2022)**
@@ -45,7 +45,7 @@ In this project, working together in a team of three to produce 3 different dash
 - I used Python to download OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
 - Data cleaning and transformation were performed using python.
 - *PostgreSQL* database was designed to store data and *SQLAlchemy* and *psycopg* were used in writing data to db.
-- Ddata transformation and analysis was done in ArcGIS Pro GIS desktop software.
+- Data transformation and analysis was done in ArcGIS Pro GIS desktop software.
 - A live dashboard was created to visualize the patterns in the data using ArcGIS Online.
 - A regression model was used to learn the pattern of population growth and to project the population of Stuttgart City and the Stuttgart administrative area by 2040.
 - The workflow was automated to enable any update on the Baden-Wuerttemberg Statistic [**site**](https://www.statistik-bw.de/) to reflect in the dashboard. 
@@ -65,7 +65,18 @@ In this project, I created a robust methodology and a web application for settle
 A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
 
 
-### 3. Computer Vision Object Detection -- Solar Panels Extraction from Satellite Imagery. 
+### 3. Tree Instances Detection and Segmentation from Satellite Imagery. 
+-  I downloaded Satellite images of the AOI.
+-  I manually annotated the trees in the image chips to create a training dataset.
+-  I developed and trained a Masked R-CNN model for tree instances segmentation, achieving a precision of 0.79 and recall of 0.70.
+-  I fine-tune YOLOv11 model on the dataset and compared metrics and inference results.
+-  I post-processed the inference results into a fully ready tree-crowns dataset with over 1 million trees across UK.
+
+![Model's Inference Images Samples](assets/images/tree_crowns_single_inference.png)
+![Model's Inference Images Samples](assets/images/tree_crowns_MRCNN_YOLO.png)
+
+
+### 4. Computer Vision Object Detection -- Solar Panels Extraction from Satellite Imagery. 
 Using Pytorch and YOLOv8 model, I trained an object detection model to detect and extract relevant properties of solar panels in satellite images.
 -  2546 TIF images from Germany provided by Maxar Technologies.
 -  60 : 20 : 20: training, validation and testing datasets.
@@ -79,7 +90,7 @@ Summary and Challenges faced:
 ![Model's Result Image and Panel properties extracted](assets/images/Solar_Panels_Project2.png)
 - [**Excel Sheet for all solar panel properties extracted**](predicted_solar_panel.xlsx)
 
-### 4. Computer Vision Image Classification -- Clothing Images classification.
+### 5. Computer Vision Image Classification -- Clothing Images classification.
 Using TensorFlow Deep Learning library and Python, I built CNN image classification models in attempt to classify images of different items of clothings.
 
 - No. of unique classes to classify 10
@@ -93,7 +104,7 @@ Brief Summary: I built 3 different neural network classification models and comp
 ![Confusion matrix:](assets/images/Confusion_matrix.png) 
 
 
-### 5. House Price Prediction project (Data Science & Machine Learning):
+### 6. House Price Prediction project (Data Science & Machine Learning):
 In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplotlib, and Scikit-learn to analyze the Boston city house pricing dataset.
 - I started with exploratory data analysis.
 - Built a regression model to help predict the prices of new homes.
@@ -102,7 +113,7 @@ In this project, I used Python libraries Pandas, NumPy, Seaborn, Plotly, Matplot
 [**House Price Prediction Notebook**](https://colab.research.google.com/drive/1OOQvevXED8NoMMzUQfUndf0gVJGpq5Yi).<br />
 ![Plotting predicted Vs Actual prices](assets/images/House_prices_predicted_vs_actual.png)
 
-### 6. Google Play Store App Analytics (Goal: Machine Learning Task from Development to Deployment on AWS).
+### 7. Google Play Store App Analytics (Goal: Machine Learning Task from Development to Deployment on AWS).
 In this project, I did a comprehensive analysis of the Android app market by comparing thousands of apps in the Android Play store. Using Python libraries Pandas and Plotly, I analyzed the app market with the goal of answering the questions:
 - which apps have the highest downloads?
 - what categories of apps are most downloaded?
@@ -117,7 +128,7 @@ The overall goal was to develop an app pricing and revenue forecasting mechanism
 ![Sample Analysis](assets/images/How_Much_can_paid_app_earn.png)
 
 
-### 7. Image Classification project -- Food Images -- (Deep Learning, Computer Vision & Transfer Learning).
+### 8. Image Classification project -- Food Images -- (Deep Learning, Computer Vision & Transfer Learning).
 In this project, I build CNN models to classify 10 classes of food. The best results achieved was 41% validation accuracy from three CNN models I built from scratch, even after augmenting the data. So I used Transfer learning feature extraction, where I used Resnet50 and EfficientnetB0 architectures to improve the classification to finally realise a validation accuracy of 91% without overfitting.
 Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 [**The Notebook can be seen here**](https://colab.research.google.com/drive/1KvDgqY_AbeXMGU4wDhzV2OwbzC0zjNG3)
@@ -125,7 +136,7 @@ Dataset include: 10 classes of food extracted from the Food101 Kaggle dataset.
 ![Sample Predicted Image](assets/images/hamburger.png)
 
 
-### 8. Formula 1 Sport Historical Data Analytics Project (Data Engineering with Spark and Databricks).
+### 9. Formula 1 Sport Historical Data Analytics Project (Data Engineering with Spark and Databricks).
 In this project, I analysed the Ergast Formula1 sports database to understand the dominant drivers and dominant teams since the history of the sports. Doing this Data Engineering project enabled me to get proficient with Spark, Databricks, Azure Data Factory and refresh my SQL skill. 
 - I used Databricks, Pyspark and SparkSQL in Microsoft Azure environment for the project.
 - I wrote Pyspark and SparkSQL scripts to ingest all the data into Azure Datalake Storage Gen2(ADLS) with both full load and incremental loading approaches.
