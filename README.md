@@ -45,7 +45,7 @@ In this project, working together in a team of three to produce 3 different dash
 - I used Python to download OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
 - Data cleaning and transformation were performed using python.
 - I designed a **Postgres database** to store data and *SQLAlchemy* and *psycopg* were used in writing data to db.
-- Data transformation and analysis was done in ArcGIS Pro desktop software using *ArcGIS model builder**.
+- Data transformation and analysis was done in ArcGIS Pro desktop software using **ArcGIS model builder**.
 ![A snapshot of the transformation pipelines](assets/images/arcgis_model_builder.png).
 - I built a **live dashboard** to visualize the patterns in the data using **ArcGIS Online**.
 - I trained a **regression model** to learn the pattern of population growth and to **forecast the population** of Stuttgart City and the Stuttgart administrative area by 2040.
