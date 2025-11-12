@@ -41,14 +41,15 @@ Want to reach out, email me @ skdarkey@gmail.com.
 
 ### 1. Live Population Dashboard project (Geospatial Data Engineering & Automation):
 In this project, working together in a team of three to produce 3 different dashboards, 
-- I used *Python* to scrape Baden-Wurttemberg population and migration statistic data,
+- I used **Python** to scrape Baden-Wurttemberg population and migration statistic data,
 - I used Python to download OpenStreetMap geo data for Stuttgart City(includes land use data and building footprints).
 - Data cleaning and transformation were performed using python.
-- *PostgreSQL* database was designed to store data and *SQLAlchemy* and *psycopg* were used in writing data to db.
-- Data transformation and analysis was done in ArcGIS Pro GIS desktop software.
-- A live dashboard was created to visualize the patterns in the data using ArcGIS Online.
-- A regression model was used to learn the pattern of population growth and to project the population of Stuttgart City and the Stuttgart administrative area by 2040.
-- The workflow was automated to enable any update on the Baden-Wuerttemberg Statistic [**site**](https://www.statistik-bw.de/) to reflect in the dashboard. 
+- I designed a **Postgres database** to store data and *SQLAlchemy* and *psycopg* were used in writing data to db.
+- Data transformation and analysis was done in ArcGIS Pro desktop software using *ArcGIS model builder**.
+  ![A snapshot of the transformation pipelines][**Transformations**](assets/images/arcgis_model_builder.png).
+- I built a **live dashboard** to visualize the patterns in the data using **ArcGIS Online**.
+- I trained a **regression model** to learn the pattern of population growth and to **forecast the population** of Stuttgart City and the Stuttgart administrative area by 2040.
+- The workflow was **automated** to enable any update on the Baden-Wuerttemberg Statistic [**site**](https://www.statistik-bw.de/) to reflect in the dashboard. 
 A short video on the project can be seen here. [**Video**](https://youtu.be/H-GCY9xvKJI).
 The code for this project can be found here [**Notebook**](https://github.com/skdarkey/portfolio/blob/main/Population%20Dashboard%20Codebase.ipynb)
 
@@ -59,7 +60,7 @@ The code for this project can be found here [**Notebook**](https://github.com/sk
 ![Front-End](assets/images/Thesis_prj1.png) <br />
 In this project, I created a robust methodology and a web application for settlement growth analysis, change detection, and visualization in 3D. 
 - I used the open-source World Settlement Footprint (raster data) and Citygml datasets of Stellingen and Niendorf in Germany,
-- Python geospatial libraries, *Safe FME*, *QGIS*, and *Cesium*, *HTML*, *JavaScript* and *CSS* technologies,
+- Python geospatial libraries, **Safe FME**, **QGIS**, and **Cesium**, **HTML**, **JavaScript** and **CSS** technologies,
 - to create a robust data processing pipelines and a 3D visualization application for the 2 cities in Germany.
 - This application can be scaled and used to analyze and visualize the evolution of any city with ease.
 A short video on the project can be seen here: [**Video**](https://youtu.be/43EBbHRRL2c).
